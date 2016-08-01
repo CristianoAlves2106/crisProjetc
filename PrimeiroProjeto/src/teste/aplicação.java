@@ -15,6 +15,7 @@ public class aplicação {
         aluno.setMundo("mundo");
         aluno.setOla("ola");
         
-        System.out.println(aluno.getOla() + " "+aluno.getMundo());
+        System.out.println(aluno.getOla().toUpperCase() + " "+aluno.getMundo().toUpperCase());
+        System.out.println(aluno);
     }
 }
